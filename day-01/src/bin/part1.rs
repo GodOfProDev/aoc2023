@@ -2,9 +2,8 @@ use std::fs;
 
 fn main() {
     println!("part1");
-    let file_path = "E:\\Programming\\rustProjects\\aoc2023\\day-01\\src\\bin\\input1.txt";
 
-    let mut input = fs::read_to_string(file_path).unwrap();
+    let mut input = fs::read_to_string("input1.txt").unwrap();
     input.push('\r');
 
     let mut vec: Vec<Vec<char>> = Vec::new();
