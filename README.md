@@ -1,2 +1,2 @@
 # aoc2023
- Advent Of Code 2025 in rust
+ Advent Of Code 2023 in rust
